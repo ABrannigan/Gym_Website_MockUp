@@ -1,0 +1,214 @@
+/*Author: Adam Brannigan x00116818*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+* {
+	/*outline: 1px solid red !important;*/
+}
+/*set up max grid limit the max-width of the page and center content in case your user is looking at the page on a very large screen. */
+
+.container {
+	margin:0 auto;
+	max-width: 1000x
+	width: 80%;
+}
+
+section {
+	width: 100%;
+	margin bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;/*allow use space efficiently for all children*/
+	background-color: #191919;
+}
+header {
+	
+	background-color: #191919;
+	width: 100%;
+}
+
+
+footer {
+	
+	background-color: #191919;
+	width: 100%;
+}
+
+/*create 12 columns between 8.33% and 100% for easy devision of grid */ 
+.col-1 {
+	width: 8.33%;
+	padding:10px;
+    
+}
+
+.col-2 {
+    width: 16.66%;
+	padding:10px;
+    
+}
+
+.col-3 {
+    width: 25%;
+	padding:10px;
+    background-color: #191919; 
+}
+
+.col-4 {
+    width: 33.33%;
+	padding:10px;
+     background-color: #FFFFFF; 
+}
+
+.col-5 {
+    width: 41.66%;
+	padding:10px;
+}
+
+.col-6 {
+    width: 50%;
+	color: #FFFFFF;
+	padding:10px;
+	background-color: #191919; 
+}
+
+.col-7 {
+    width: 58.33%;
+	padding:10px;
+}
+
+.col-8 {
+    width: 66.66%;
+	padding:10px;
+}
+
+.col-9 {
+    width: 75%;
+	padding:10px;
+
+}
+
+.col-10 {
+    width: 83.33%;
+	padding:10px;
+}
+
+.col-11 {
+    width: 91.66%;
+	padding:10px;
+}
+
+.col-12 {
+    width: 100%;
+	padding:0px;
+	
+	
+}
+
+nav {
+    width: 100%;
+	padding:0px;
+	background-color: #FFEC09;
+	
+	
+}
+/* style unordered list to have no bulletpoins etc*/
+nav ul{
+	
+	list-style-type: none;
+	text-align:left;
+	font-size:150%;
+}
+
+/*list horozontal for nav-bar*/
+nav li{
+	
+	list-style-type: none;
+	display: inline;
+	margin-right: 2%;
+	
+}
+
+.logo-box {
+	
+    width: 33.33%;
+	padding:10px;
+	font-size: 200%;
+    
+
+}
+ 
+
+ 
+
+
+
+
+	
+
+
+/* displays links as blocks*/
+ a:link {
+	display: block;
+	text-align: left;
+	color: #FFFFFF;
+	display: inline;
+	text-decoration: none;
+	font-size:110%;
+	
+	
+}
+
+
+
+
+h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 200%;
+}
+
+h2 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 200%;
+	background-color: #191919;
+}
+
+h3 {
+	text-align: center;
+	color: #FFEC09;
+	font-size: 300%;
+	
+}
+
+h4 { 
+
+	text-align: center;
+	font-size: 150%;
+}
+
+
+p {
+	text-align: center;
+	font-size:125%;
+}
+
+
+ ul { 
+	 list-style-type: none;
+	 text-align: center;
+	 color:#191919; 
+	 font-size:150%; 
+ 
+ }
+
+
+/* media querie make responsive check written notes*/
+
+@media only screen and (max-width: 500px) {
+	p{
+		font-size:200%;
+	}
+}
